@@ -1,3 +1,11 @@
 001 yxb 20 100
-002 cy 19 99
-003 ljh 19 99
+002 cy 19 100
+003 ljh 19 100004 maron 20 100
+005 lara 20 100
+006 yoonchae 17 100
+008 megan 20 100
+004 maron 20 100
+005 lara 20 100
+006 yoonchae 17 100
+008 megan 20 100
+007 sophia 20 100
