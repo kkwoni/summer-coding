@@ -16,9 +16,11 @@ struct Student
 };
 
 void showMenu();
-int addStudent(vector<Student> &students);
+void loadStudents(vector<Student> &students);
+void saveStudents(const vector<Student> &students);
+void addStudent(vector<Student> &students);
 void showStudents(const vector<Student> &students);
 void deleteStudent(vector<Student> &students);
-void findStudent(vector<Student> &students);
+void findStudent(const vector<Student> &students);
 void sortMenu();
-void sortStudents();
+void sortStudents(vector<Student> &students);

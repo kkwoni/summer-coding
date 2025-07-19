@@ -3,6 +3,7 @@ int main()
 {
     int choice;
     vector<Student> students;
+    loadStudents(students);
     do
     {
         showMenu();
@@ -10,9 +11,7 @@ int main()
         switch (choice)
         {
         case 1:
-            if (addStudent(students))
-                return 1; // Error handling for addStudent
-            cout << "添加学生信息成功\n";
+            addStudent(students);
             break;
         case 2:
             showStudents(students);
@@ -25,7 +24,7 @@ int main()
             break;
         case 5:
             sortMenu();
-            sortStudents();
+            sortStudents(students);
             break;
         case 0:
             cout << "退出系统\n";
